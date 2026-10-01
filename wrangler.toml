@@ -1,0 +1,7 @@
+name = "truthscan-detect-url"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+# To serve on a branded domain for the Devvit allowlist (needs the truthscan.com
+# zone in this Cloudflare account), uncomment and deploy:
+# routes = [{ pattern = "detect-url.truthscan.com", custom_domain = true }]
